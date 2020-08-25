@@ -1,6 +1,8 @@
 package com.hm.cloud.service;
 
-import com.hm.cloud.domain.User;
+
+
+import com.hm.cloud.common.domain.User;
 
 import java.util.List;
 

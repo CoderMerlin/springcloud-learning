@@ -1,6 +1,7 @@
 dependencies {
     //添加子模块
     compile project(":hm-common")
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery'
@@ -8,5 +9,4 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation 'io.projectreactor:reactor-test'
-
 }

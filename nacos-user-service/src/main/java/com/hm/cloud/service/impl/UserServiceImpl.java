@@ -1,6 +1,6 @@
 package com.hm.cloud.service.impl;
 
-import com.hm.cloud.domain.User;
+import com.hm.cloud.common.domain.User;
 import com.hm.cloud.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;

@@ -1,2 +1,4 @@
 rootProject.name = 'springcloud-learning'
+include 'hm-common'
 include 'nacos-user-service'
+include 'nacos-config-client'

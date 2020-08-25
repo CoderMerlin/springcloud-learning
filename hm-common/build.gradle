@@ -1,0 +1,5 @@
+// jar包的名字
+archivesBaseName = 'hm-common'
+
+//被调用的项目
+jar.enabled = true

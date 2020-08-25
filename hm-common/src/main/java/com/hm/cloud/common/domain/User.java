@@ -1,4 +1,4 @@
-package com.hm.cloud.domain;
+package com.hm.cloud.common.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

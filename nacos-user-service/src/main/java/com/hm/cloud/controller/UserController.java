@@ -1,7 +1,8 @@
 package com.hm.cloud.controller;
 
-import com.hm.cloud.domain.CommonResult;
-import com.hm.cloud.domain.User;
+
+import com.hm.cloud.common.domain.CommonResult;
+import com.hm.cloud.common.domain.User;
 import com.hm.cloud.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +28,7 @@ public class UserController {
     @PostMapping("/create")
     public CommonResult create(@RequestBody User user) {
         userService.create(user);
-        return new CommonResult("操作成功", "200");
+        return new CommonResult("Y","操作成功", "200");
     }
 
     @GetMapping("/{id}")
@@ -53,13 +54,13 @@ public class UserController {
     @PostMapping("/update")
     public CommonResult update(@RequestBody User user) {
         userService.update(user);
-        return new CommonResult("操作成功", "200");
+        return new CommonResult("Y","操作成功", "200");
     }
 
     @PostMapping("/delete/{id}")
     public CommonResult delete(@PathVariable Long id) {
         userService.delete(id);
-        return new CommonResult("操作成功", "200");
+        return new CommonResult("Y","操作成功", "200");
     }
 
 }
