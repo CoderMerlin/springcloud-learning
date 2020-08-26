@@ -1,0 +1,16 @@
+
+
+
+spring:
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group:
+    nacos:
+      server-addr: localhost:8089
+  application:
+    name: seata-account-service
+
+
+server:
+  port: 8004
